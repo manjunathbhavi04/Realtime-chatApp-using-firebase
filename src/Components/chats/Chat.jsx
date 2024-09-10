@@ -15,8 +15,11 @@ const Chat = () => {
 
   return (
     <div className='chat'>
+
+      {/* Top of the Chat */}
       <div className="top">
 
+        {/* user section */}
         <div className="user">
           <img src="./avatar.png" alt="" />
           <div className="texts">
@@ -24,19 +27,20 @@ const Chat = () => {
             <p>Lorem ipsum dolor</p>
           </div>
         </div>
-        <div className="icons">
 
+        {/* icons section*/}
+        <div className="icons">
           <img src="./phone.png" alt="" />
           <img src="./video.png" alt="" />
           <img src="info.png" alt="" />
         </div>
-
 
       </div>
 
 
 
       {/* Center chatbox */}
+      
       <div className="center">
         <div className="message">
           <img src="./avatar.png" alt="" />
