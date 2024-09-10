@@ -30,14 +30,45 @@ const Detail = () => {
             <img src="./arrowDown.png" alt="" />
           </div>
           <div className="photos">
-            <div className="photoDeatil">
+            <div className="photoDetail">
               <div className="photoItem">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3VuJfZepsmghuglByBpsb1rFIkgSeSK6nqA&s" alt="" />
+                <img className="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3VuJfZepsmghuglByBpsb1rFIkgSeSK6nqA&s" alt="" />
                 <span>Photo_820_q</span>
 
               </div>
+              <img src="download.png" alt="" className="download"/>
             </div>
-            <img src="download.png" alt="" />
+            
+
+            <div className="photoDetail">
+              <div className="photoItem">
+                <img className="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3VuJfZepsmghuglByBpsb1rFIkgSeSK6nqA&s" alt="" />
+                <span>Photo_820_q</span>
+
+              </div>
+              <img src="download.png" alt="" className="download"/>
+
+            </div>
+
+            <div className="photoDetail">
+              <div className="photoItem">
+                <img className="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3VuJfZepsmghuglByBpsb1rFIkgSeSK6nqA&s" alt="" />
+                <span>Photo_820_q</span>
+
+              </div>
+              <img src="download.png" alt="" className="download"/>
+
+            </div>
+
+            <div className="photoDetail">
+              <div className="photoItem">
+                <img className="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3VuJfZepsmghuglByBpsb1rFIkgSeSK6nqA&s" alt="" />
+                <span>Photo_820_q</span>
+
+              </div>
+              <img src="download.png" alt=""className="download" />
+
+            </div>
           </div>
         </div>
         <div className="option">
@@ -47,6 +78,7 @@ const Detail = () => {
           </div>
         </div>
         <button>Block User</button>
+        <button className="logout">Logout</button>
       </div>
 
     </div>

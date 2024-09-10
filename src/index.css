@@ -2,8 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800; /* Default weight, can be adjusted */
+  /* font-style: normal; */ 
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 body{
@@ -19,7 +25,7 @@ body{
   display: flex;
   
   height: 90vh;
-  width: 90vw;
+  width: 80vw;
   background-color: rgba(26, 31, 54, 0.753);
   backdrop-filter: blur(19px) saturate(180%);
   border-radius: 12px;
