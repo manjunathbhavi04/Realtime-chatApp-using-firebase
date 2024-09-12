@@ -14,15 +14,21 @@ const Login = () => {
         if (e.target.files[0]) {
             setAvatar({
                 file: e.target.files[0],
-                url: URL.createObjectURL(e.target.files[0])
+                url: URL.createObjectURL(e.target.files[0]),
             })
         }
 
     }
 
+
+    //For the login
     const handleLogin = (e) => {
         e.preventDefault();
-        toast.success("Hello")
+    }
+
+    // for the sign up
+    const handleRegister = (e) => {
+        e.preventDefault();
     }
 
     const user = false;
@@ -40,7 +46,7 @@ const Login = () => {
             <div className="separater"></div>
             <div className="item">
                 <h2>Creat an Account</h2>
-                <form action="">
+                <form onSubmit={handleRegister} action="">
                     <label htmlFor="file" style={{ cursor: "pointer" }} >
                         <img src={avatar.url || "./avatar.png"} alt="" />
                           <span>Upload an Image</span></label>
